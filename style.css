@@ -1,0 +1,304 @@
+body {
+	padding:0;
+	margin:0;
+
+}
+    font-family: Ghotic;
+    src: url('Fonts/GOTHIC.TTF');
+}
+
+@font-face {
+    font-family: Main;
+    src: url('Fonts/Monly-Serif-Bold.otf');
+}
+
+@font-face {
+    font-family: Header;
+    src: url('Fonts/abosanova.ttf');
+}
+
+@media only screen and (max-width: 1000px) {
+    .about .text{
+        text-align: center;
+        height: auto;
+    }
+
+    .about_us .about{
+        height: 10%;
+    }
+        .content2{
+        display: none;
+    }
+    .content1{
+        width: 100%;
+    }
+    .
+}
+@font-face{
+    font-family: menu;
+    src: url(Fonts/abosanova.ttf);
+}
+@font-face{
+    font-family: Monly;
+    src: url(Fonts/Monly-Serif-Bold.otf);
+}
+@font-face{
+    font-family: Gothic;
+    src: url(Fonts/GOTHIC.ttf);
+}
+/*  */
+.all {
+	width:100%;
+	overflow-x:hidden;
+}
+
+.slider_header {
+	width:100%;
+	height:100%;
+	background-image: url('img/main.png');
+	background-size: 100% 100%;
+}
+.slider_header .menu {
+	width:70%;
+	height: 7.5%;
+	padding-right: 15%;
+	padding-left: 15%;
+	background-color: rgba(255,255,255,0.2);
+	text-align:center;
+	display:table;
+}
+.slider_header .eiforiya {
+	width:100%;
+	height:92.5%;
+	display:table;
+}
+.name {
+    margin-top: 5vw;
+    height: auto;
+    text-align: center;
+}
+.h1{
+    text-align: center;
+    font-family: Main;
+}
+.menu p {
+	font-size: 2vw;
+	font-family: menu;
+	padding-left: 11.5%;
+	padding-right: 11.5%;
+	float:left;
+	color:white;
+	margin: 0;
+}
+/*  */
+.about_us {
+	width:100%;
+	height:50vw;
+	background-image: url('img/about.png');
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size:60%;
+}
+.about_us .about {
+	font-family: Gothic;
+	font-weight: bold;
+	font-size: 3vw;
+	text-align: center;
+	width:100%;
+	height:20%;
+	display: table;
+}
+.about_us .text {
+    margin-top: 3vw;
+    display: inline-block;
+	width:100%%;
+	height:70%;
+    text-align: center;
+	font-size: 1.2vw;
+	font-family: Gothic;
+	padding-bottom: 5%;
+}
+/*  */
+.recept_week {
+	width:100%;
+	height:50vw;
+	background-image: url('img/back_rec.png');
+	background-repeat: no-repeat;
+	background-size: 60% 100%;
+}
+.recept_week .content1 {
+	width:50%;
+	height: 100%;
+	float: left;
+}
+.content1 .title{
+	width:100%;
+	height: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: menu;
+	font-size: 3vw;
+	color:white;
+}
+.content1 .text{
+	width:70%;
+	height: auto;
+	padding:5%;
+	margin: 10%;
+	margin-top: 0;
+	text-align: center;
+	font-family: Gothic;
+	font-size: 1.3vw;
+	color:white;
+	overflow-y: hidden;
+	background-color: rgba(255,255,255,0.5);
+}
+.recept_week .content2 {
+	width:45%;
+	height: 100%;
+	background-size:90% 100%; 
+	background-position: 0% 50%; 
+	background-repeat: no-repeat;
+	float: left;
+}
+/*  */
+.recepts {
+	width:100%;
+	height:auto;
+}
+.recepts .title {
+	width:100%;
+    margin-top: 3vw;
+	height: 10%;
+	font-family: menu;
+	font-size: 4vw;
+	white-space: nowrap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow-x: hidden;
+	background-image: url('img/line.png');
+	background-repeat: no-repeat;
+	background-size: 100% 3%;
+	background-position: 50% 50%;
+	overflow-y: hidden;
+}
+.recepts .content {
+    margin-left: 4vw;
+	width:100%;
+	height:auto;
+	text-align: center;
+}
+.content .block {
+	width: 25%;
+	height:21vw;
+	margin:2.8%;
+	float: left;
+	background-size: 100% 100%;
+
+}
+.content .black:hover{
+    background-color: rgba(0,0,0,0);
+}
+.content .black {
+	width:100%;
+	height:100%;
+	background-color: rgba(0,0,0,.5);
+	display: table;
+}
+
+.black .text {
+	display: table-cell;
+	vertical-align: middle;
+	width:60%;
+	height:auto;
+	font-family: Gothic;
+	font-size: 2.9vw;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+.recepts .more {
+	width:100%;
+	height:20vw;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.more a{
+    color: black;
+}
+
+.more a:hover{
+    color:black;
+}
+.more .button {
+	padding-right: 37.5%;
+	padding-left: 37.5%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2.7vw;
+	border: 3px solid black;
+	font-family: Gothic;
+	font-size: 2vw;
+	text-align: center;
+}
+/*  */
+.footer {
+	width:100%;
+	height:25vw;
+	background-image: url('img/большой.png');
+	background-size:100% 100%;
+}
+.footer .bokal {
+	width:15%;
+	height:85%;
+	background-image: url('img/bokal.png');
+	background-size: 60%;
+	background-position: 90% 60%;
+	background-repeat: no-repeat;
+	float:left;
+}
+.footer .right{
+	width:85%;
+	height:100%;
+	display: table;
+	float: left;
+}
+.right .menu {
+	width: 57.5%;
+	display: table-cell;
+	vertical-align: middle;
+}
+.menu .footer_name {
+	width: 120px;
+	height: auto;
+	padding: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin:2%;
+	text-align: center;
+	font-family: menu;
+	font-weight: 100 !important;
+	font-size: 2vw;
+	float:right;
+	background-color: rgba(255,255,255,0.2);
+	color:white;
+	display: table-cell;
+	vertical-align: middle;
+}
+.right .social {
+	width:100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+.social .icons {
+	padding: 7%;
+	margin:1vw;
+	background-size: 100% 100%;
+	display: inline-block;
+}
+/*  */
